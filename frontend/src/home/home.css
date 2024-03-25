@@ -1,0 +1,105 @@
+/* home.css */
+
+/* Style for the container */
+.mt-3 {
+    margin-top: 3rem;
+  }
+  
+  /* Style for the create post button */
+  .btn {
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the blogs row */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for individual blog cards */
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .post-title {
+    margin-top: 0;
+  }
+  
+  .post-decription {
+    margin-bottom: 0.5rem;
+  }
+  
+  .img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+  
+  /* Style for the create post form */
+  .create-post {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure form appears above other content */
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .create-post h4 {
+    margin-top: 0;
+  }
+  
+  .create-post form {
+    margin-top: 1rem;
+    position: relative; /* Ensure relative positioning for absolute positioning of the span */
+  }
+  
+  .create-post input,
+  .create-post textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .create-post button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .create-post button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the close button (span) */
+  .target {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #777;
+  }
+  
